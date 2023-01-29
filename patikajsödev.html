@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        .bg-color1{
+            background-color: rgb(24, 24, 63);
+        }
+        .firstclass{
+            color: orange;
+           
+            text-align: center;
+            margin-top: 100px;
+            font-family:'Courier New';
+            font-style: italic;
+        }
+        .txtSize{
+            font-size: 25px;
+        }   
+          
+    </style>
+</head>
+<body class="bg-color1">
+    <div class="firstclass">
+          <h1 >KODLAMALIYIZ</h1>
+          <p class="txtSize" id="name"> </p>
+
+          <p class="txtSize" id="date"></p>
+          <p class="txtSize">tarihinde Kodluyoruz Frontend Web Development Patikasının <br>
+            1. JavaScript  ödevini tamamladım.
+        </p>
+          
+          </div>
+          <script>
+           const d = new Date();
+            document.querySelector("#date").textContent=d;
+            
+            let isim =prompt("Adınızı giriniz");
+            document.querySelector
+            if (isim != null) {
+                document.querySelector("#name").innerHTML =
+            "Merhaba " + isim + "!" + " Hoşgeldin!";
+            }
+            
+            </script>
+</body>
+</html>
